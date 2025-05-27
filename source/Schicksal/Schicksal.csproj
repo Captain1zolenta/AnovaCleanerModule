@@ -45,7 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-	<Compile Include="Anova\AnovaCleanerModule.cs" />
+    <Compile Include="Anova\AnovaCleanerModule.cs" />
     <Compile Include="Anova\InteractionCalculator.cs" />
     <Compile Include="Anova\IPrimaryAnovaResults.cs" />
     <Compile Include="Anova\AnovaHtmlSaver.cs" />
@@ -55,6 +55,7 @@
     <Compile Include="Anova\FisherTestResult.cs" />
     <Compile Include="Anova\IResudualsCalculator.cs" />
     <Compile Include="Anova\VariantsComparator.cs" />
+    <Compile Include="Basic\DataInterface.cs" />
     <Compile Include="Basic\GroupKey.cs" />
     <Compile Include="Basic\TableAnalysisParameters.cs" />
     <Compile Include="Basic\BoxCoxNormalizer.cs" />
